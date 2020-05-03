@@ -91,5 +91,5 @@ colnames(mean_std_data) <- gsub("^t","Time_", (names(mean_std_data)))
 data_average <- mean_std_data %>% group_by(activityID, subjectID, activityType) %>% summarise_all("mean" )
 
 
-### Export data to a csv file
+## Export data to a csv file
 write.table(x= data_average, file = "tidyData.csv", row.names = FALSE, quote = FALSE)
