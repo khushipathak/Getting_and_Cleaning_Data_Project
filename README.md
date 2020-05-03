@@ -1,6 +1,6 @@
 ## Getting and Cleaning Data Course Project
 
-The `run_analysis.R` file contains the required R code to perform below mentioned tasks:
+### The `run_analysis.R` file contains the required R code to perform below mentioned tasks:
 
 - Merges the training and the test sets to create one data set.
 
